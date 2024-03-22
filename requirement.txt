@@ -1,0 +1,5 @@
+scikit-learn==1.4.1.post1
+numpy==1.26.3
+pandas==2.2.1
+streamlit==1.31.1
+pickleshare==0.7.5
