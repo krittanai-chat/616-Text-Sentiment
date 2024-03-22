@@ -2,7 +2,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-import sklearn.feature_extraction.text
+import sklearn
 
 # Load model_bay
 model_bay = pickle.load(open('naive_bayes-66130701701.sav', 'rb'))
