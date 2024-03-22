@@ -2,7 +2,6 @@
 import streamlit as st
 import pickle
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load model_bay
 model_bay = pickle.load(open('naive_bayes-66130701701.sav', 'rb'))
