@@ -5,10 +5,10 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load model_bay
-model_bay = pickle.load(open('C:/Users/User/Downloads/naive_bayes-66130701701.sav', 'rb'))
+model_bay = pickle.load(open('naive_bayes-66130701701.sav', 'rb'))
 
 # Load Vectorizer
-vectorizer = pickle.load(open('C:/Users/User/Downloads/vectorizer-66130701701.sav', 'rb'))
+vectorizer = pickle.load(open('vectorizer-66130701701.sav', 'rb'))
 
 # Set title
 st.title("Review Sentiment Prediction using Naive Bayes")
