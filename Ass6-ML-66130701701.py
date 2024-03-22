@@ -2,6 +2,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn.feature_extraction.text
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load model_bay
